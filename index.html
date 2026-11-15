@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shovon — UI/UX Designer</title>
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 1. Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Shovon<span>.</span></a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="availability-badge">
+            <span class="pulse-dot"></span>
+            Available for Projects
+          </div>
+          <h1>Designing Digital Experiences That Matter.</h1>
+          <p class="hero-intro">
+            Hi, I’m Shovon — a UI/UX Designer focused on crafting intuitive interfaces, scalable design systems, and human-centered digital products.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image-card">
+            <img
+              src="shovon ultra pro max.png"
+              alt="Portrait of Shovon, UI/UX Designer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. About Me -->
+    <section id="about" class="about section-padding">
+      <div class="container about-grid">
+        <div class="about-header">
+          <span class="section-label">About Me</span>
+          <h2>A Little About Me</h2>
+        </div>
+
+        <div class="about-body">
+          <p>
+            I bridge the gap between complex user needs and clean, functional aesthetics. With a background in visual communication and human-computer interaction, I approach every product with curiosity, empathy, and rigorous testing.
+          </p>
+          <p>
+            Whether building a mobile app from zero to one or refining an enterprise SaaS dashboard, my goal is to make digital interactions feel effortless.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">28+</span>
+              <span class="stat-label">Completed Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">19+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Featured Projects -->
+    <section id="projects" class="projects section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Selected Work</span>
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80"
+                alt="FinTrack Mobile App UI Mockup"
+              />
+            </div>
+            <div class="project-info">
+              <span class="project-category">Mobile App • UI/UX Design</span>
+              <h3>FinTrack — Personal Wealth App</h3>
+              <p>
+                Redesigned an expense-tracking mobile experience to simplify budgeting, increasing daily active engagement by 34%.
+              </p>
+              <a href="#contact" class="project-link">View Case Study &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80"
+                alt="CloudPulse SaaS Analytics Dashboard"
+              />
+            </div>
+            <div class="project-info">
+              <span class="project-category">SaaS Web App • Design System</span>
+              <h3>CloudPulse Analytics Dashboard</h3>
+              <p>
+                Created a modular component library and data-visualization dashboard for B2B cloud infrastructure monitoring.
+              </p>
+              <a href="#contact" class="project-link">View Case Study &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=900&q=80"
+                alt="Verve Botanical E-Commerce Storefront"
+              />
+            </div>
+            <div class="project-info">
+              <span class="project-category">E-Commerce • UX Research</span>
+              <h3>Verve Botanical Storefront</h3>
+              <p>
+                Streamlined the product discovery and checkout flow through user testing, reducing cart abandonment across mobile devices.
+              </p>
+              <a href="#contact" class="project-link">View Case Study &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. My Skills -->
+    <section id="skills" class="skills section-padding">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Expertise</span>
+          <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">01</div>
+            <h3>UI Design</h3>
+            <p>Clean visual hierarchy, typography, color theory, and pixel-accurate interface craft.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">02</div>
+            <h3>UX Research</h3>
+            <p>User interviews, usability testing, journey mapping, and heuristic evaluations.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">03</div>
+            <h3>Wireframing</h3>
+            <p>Low-to-mid fidelity user flows and information architecture that validate ideas early.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">04</div>
+            <h3>Prototyping</h3>
+            <p>Interactive micro-animations and clickable user journeys for stakeholder and user testing.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">05</div>
+            <h3>Figma</h3>
+            <p>Auto-layout mastery, variable tokens, interactive components, and developer handoff.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">06</div>
+            <h3>Responsive Design</h3>
+            <p>Fluid, accessible layouts tailored seamlessly across mobile, tablet, and desktop screens.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Contact Section -->
+    <section id="contact" class="contact section-padding">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="section-label">Get in Touch</span>
+          <h2>Have a Project in Mind?</h2>
+          <p class="contact-desc">
+            I’m currently open to freelance opportunities, product design roles, and creative collaborations. Drop a message and let’s build something great together.
+          </p>
+
+          <div class="contact-details">
+            <p class="contact-email-label">Direct Email</p>
+            <a href="mailto:shovonlal247@gmail.com" class="contact-email">shovonlal247@gmail.com</a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.behance.net/shovonlal" aria-label="Behance">Behance</a>
+            <a href="https://www.instagram.com/shovonlalsaha/" aria-label="Dribbble">Instagram</a>
+            <a href="https://www.linkedin.com/in/shovonlalsaha/" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://x.com/iamshovonlal" aria-label="Twitter">X</a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Project Details</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me a bit about your project, timeline, and goals..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="logo">Shovon<span>.</span></a>
+        <p>&copy; 2026 Shovon. All rights reserved.</p>
+      </div>
+
+      <div class="footer-socials">
+            <a href="https://www.behance.net/shovonlal" aria-label="Behance">Behance</a>
+            <a href="https://www.instagram.com/shovonlalsaha/" aria-label="Dribbble">Instagram</a>
+            <a href="https://www.linkedin.com/in/shovonlalsaha/" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://x.com/iamshovonlal" aria-label="Twitter">X</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
